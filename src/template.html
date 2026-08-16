@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GAAS FOUNDATION — Internal knowledge hub. Brand Strategy, Service Matrix & Pricing, Sales Handbook.">
+<title>GAAS FOUNDATION · Internal Hub</title>
+{{CSS}}
+</head>
+<body>
+<div id="authGate" class="auth-gate">
+  <div class="auth-box">
+    <img src="logo.png" alt="GAAS FOUNDATION" width="120" height="62" style="margin-bottom:16px">
+    <h1 class="auth-title">Internal Hub</h1>
+    <p class="auth-sub">Tài liệu nội bộ — vui lòng đăng nhập.</p>
+    <form id="authForm" autocomplete="off">
+      <input id="authUser" type="text" placeholder="Tài khoản" autocomplete="username" required>
+      <input id="authPass" type="password" placeholder="Mật khẩu" autocomplete="current-password" required>
+      <button type="submit">Đăng nhập</button>
+      <p id="authErr" class="auth-err" hidden>Sai tài khoản hoặc mật khẩu.</p>
+    </form>
+  </div>
+</div>
+
+<a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="drawer-toggle" id="drawerToggle" aria-expanded="false" aria-controls="sidebar" aria-label="Mở menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+    <a class="brand" href="#brand" id="brandLink" aria-label="GAAS FOUNDATION — về đầu trang">
+      <img src="logo.png" alt="GAAS FOUNDATION" width="152" height="79">
+    </a>
+    <div class="brand-word">
+      <span class="brand-name">GAAS FOUNDATION</span>
+      <span class="brand-sub">Growth Operating Partner · We operate. You own.</span>
+    </div>
+    <div class="search-wrap" role="search">
+      <label class="visually-hidden" for="globalSearch">Tìm kiếm toàn site</label>
+      <input id="globalSearch" type="search" placeholder="Tìm kiếm toàn site…  ( / hoặc ⌘K )" autocomplete="off" aria-controls="searchResults">
+      <kbd class="search-kbd">⌘K</kbd>
+    </div>
+    <span class="internal-badge">Internal Use Only</span>
+  </div>
+  <nav class="tabbar" role="tablist" aria-label="Chọn nội dung">
+    {{TABS}}
+  </nav>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar" aria-label="Mục lục trong tab">
+    <div class="sidebar-head">
+      <span id="sidebarTabLabel">Brand Strategy</span>
+      <span class="sidebar-count" id="sidebarCount"></span>
+    </div>
+    <nav id="navList" aria-label="Điều hướng nội dung"></nav>
+  </aside>
+
+  <main id="main-content" class="main" tabindex="-1">
+    <div id="searchPanel" class="search-panel hidden" hidden>
+      <div class="search-panel-inner">
+        <div id="searchResults" class="search-results" role="listbox" aria-label="Kết quả tìm kiếm" aria-live="polite"></div>
+      </div>
+    </div>
+    {{PANELS}}
+  </main>
+</div>
+
+<div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="footer-name">GAAS FOUNDATION</span>
+    <span class="footer-tag">Growth Operating Partner · We operate. You own.</span>
+  </div>
+</footer>
+
+{{REC_DATA}}
+{{DATA}}
+<script>
+{{JS}}
+</script>
+</body>
+</html>

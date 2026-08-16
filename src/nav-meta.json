@@ -1,0 +1,28 @@
+{
+  "tabs": [
+    {
+      "id": "brand",
+      "label": "Brand Strategy",
+      "short": "Brand",
+      "accent": "navy",
+      "source_file": "brand-guide-gaas.md",
+      "title": "Brand Strategy & BrandKey"
+    },
+    {
+      "id": "matrix",
+      "label": "Matrix · Pricing",
+      "short": "Matrix",
+      "accent": "green",
+      "source_file": "gaas-service-matrix.md",
+      "title": "Service Matrix & Pricing"
+    },
+    {
+      "id": "handbook",
+      "label": "Sales Handbook",
+      "short": "Handbook",
+      "accent": "red",
+      "source_file": "gaas-sales-handbook.md",
+      "title": "Sales Handbook & Objection Handling"
+    }
+  ]
+}

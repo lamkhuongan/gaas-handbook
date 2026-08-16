@@ -1,0 +1,26 @@
+{
+  "built_at": "2026-08-16 15:14:15",
+  "stamp": "16/08/2026 15:14",
+  "sources": {
+    "brand": {
+      "hash": "b076d6553a39",
+      "mtime": 1785902494.3080275,
+      "file": "brand-guide-gaas.md"
+    },
+    "matrix": {
+      "hash": "8c71c4083105",
+      "mtime": 1786804909.5704277,
+      "file": "gaas-service-matrix.md"
+    },
+    "handbook": {
+      "hash": "bf6626777f6a",
+      "mtime": 1786868055.8251305,
+      "file": "gaas-sales-handbook.md"
+    }
+  },
+  "stats": {
+    "tables": 79,
+    "code_fences": 6,
+    "checkboxes": 105
+  }
+}

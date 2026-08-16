@@ -1,0 +1,50 @@
+{
+  "note": "5 xung đột còn hiệu lực giữa Sales Handbook và Service Matrix. DV04 + DV08 đã rewrite trực tiếp theo Matrix (16/08/2026) nên override #6-#7 đã retire.",
+  "items": [
+    {
+      "id": 1,
+      "handbook_section": "dich-vu-02",
+      "row_label": "Brand Strategy Blueprint",
+      "old_text": "39,9–79,9M",
+      "new_text": "49,9–79,9M",
+      "why": "Sàn giá nâng lên theo Matrix",
+      "verdict": "Matrix: 49,9–79,9M"
+    },
+    {
+      "id": 2,
+      "handbook_section": "dich-vu-02",
+      "row_label": "Growth Strategy Blueprint",
+      "old_text": "39,9–79,9M",
+      "new_text": "49,9–79,9M",
+      "why": "Sàn giá nâng lên theo Matrix",
+      "verdict": "Matrix: 49,9–79,9M"
+    },
+    {
+      "id": 3,
+      "handbook_section": "dich-vu-03",
+      "row_label": "Short Video Engine",
+      "old_text": "12–49,9M/th",
+      "new_text": "8M / 16M / 24M",
+      "why": "Đổi sang mô hình Pack 4/8/12 theo Matrix; monthly engine thuộc Social Growth",
+      "verdict": "Matrix: Pack 4 = 8M · Pack 8 = 16M · Pack 12 = 24M"
+    },
+    {
+      "id": 4,
+      "handbook_section": "dich-vu-03",
+      "row_label": "Podcast/Vodcast",
+      "old_text": "15–49,9M/buổi",
+      "new_text": "15M / 20M / 25M",
+      "why": "Tách 3 tier theo Matrix",
+      "verdict": "Matrix: Standard 15M · Growth 20M · Premium 25M/tập"
+    },
+    {
+      "id": 5,
+      "handbook_section": "dich-vu-03",
+      "row_label": "Performance Creative Pack",
+      "old_text": "14,9–39,9M",
+      "new_text": "Theo brief",
+      "why": "Báo giá theo brief",
+      "verdict": "Matrix: Theo brief"
+    }
+  ]
+}
