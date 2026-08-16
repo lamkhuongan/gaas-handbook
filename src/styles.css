@@ -74,7 +74,7 @@ a:hover { text-decoration: underline; }
 }
 .drawer-toggle:hover { background: var(--neutral-2); }
 .brand { display: flex; align-items: center; flex-shrink: 0; gap: 10px; }
-.brand img { display: block; height: 52px; width: auto; }
+.brand img { display: block; height: 56px; width: auto; }
 .brand-word { display: flex; flex-direction: column; line-height: 1.25; }
 .brand-name { font-weight: 800; font-size: 16px; letter-spacing: .02em; color: var(--ink); }
 .brand-sub { font-size: 11.5px; color: var(--muted); }
@@ -405,20 +405,20 @@ li { margin: 4px 0; }
 
 /* ---------- Drawer / responsive ---------- */
 .drawer-backdrop {
-  position: fixed; inset: 0; z-index: 90; background: rgba(0,38,77,.5);
+  position: fixed; inset: 0; z-index: 101; background: rgba(0,38,77,.5);
 }
 
 @media (max-width: 1024px) {
-  .sidebar { position: fixed; top: 0; bottom: 0; left: 0; z-index: 95; height: 100vh; transform: translateX(-100%); transition: transform .22s ease; width: 280px; }
+  .drawer-toggle { display: inline-flex; }
+  .sidebar { position: fixed; top: calc(var(--topbar-h) + var(--tabbar-h)); bottom: 0; left: 0; z-index: 105; height: auto; transform: translateX(-100%); transition: transform .22s ease; width: 280px; box-shadow: 4px 0 24px rgba(0,38,77,.15); }
   .sidebar.open { transform: translateX(0); }
   .main { padding: 18px 18px 60px; }
   .brand-word { display: none; }
 }
 
 @media (max-width: 768px) {
-  .drawer-toggle { display: inline-flex; }
   .topbar-inner { padding: 6px 12px; gap: 8px; }
-  .brand img { height: 40px; }
+  .brand img { height: 44px; }
   .search-wrap { max-width: none; }
   .search-kbd { display: none; }
   .internal-badge { display: none; }

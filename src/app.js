@@ -334,7 +334,7 @@
       if (e.key === 'Escape' && sidebar.classList.contains('open')) closeDrawer();
     });
     document.addEventListener('click', function (e) {
-      if (sidebar.classList.contains('open') && !sidebar.contains(e.target) && e.target.id !== 'drawerToggle') closeDrawer();
+      if (sidebar.classList.contains('open') && !sidebar.contains(e.target) && !toggle.contains(e.target)) closeDrawer();
     });
   }
 
