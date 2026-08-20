@@ -62,11 +62,11 @@ window.__GAAS_REC_DATA = {
       "scopes": ["retainer"],
       "budget": ["b10-30", "b30-60", "b60-120", "b120"],
       "packages": [
-        { "name": "Marketing Lite", "price": "14,9–19,9M/th", "desc": "1 kênh; ~8 nội dung; kế hoạch + báo cáo cơ bản" },
-        { "name": "Marketing Starter", "price": "24,9–29,9M/th", "desc": "1–2 kênh; 10–12 nội dung; phối hợp ads cơ bản" },
-        { "name": "Marketing Growth", "price": "39,9–49,9M/th", "desc": "Đa kênh; content; performance; Zalo cơ bản; dashboard" },
-        { "name": "Marketing Scale", "price": "69,9–89,9M/th", "desc": "Đa kênh; production cao; CRM/Zalo; automation cơ bản" },
-        { "name": "Department as a Service", "price": "129,9M+/th", "desc": "Dedicated team; chiến lược; production; data; SLA tùy chỉnh" }
+        { "name": "Marketing Lite", "price": "14,9M/th", "desc": "1-2 kênh; 8–10 nội dung/kênh; media cơ bản; báo cáo social" },
+        { "name": "Marketing Starter", "price": "24,9M/th", "desc": "2-3 kênh; 10-12 nội dung/kênh; Ads managed 1-2 kênh; review tuần" },
+        { "name": "Marketing Growth", "price": "39,9M/th", "desc": "3-4 kênh; 12-15 nội dung/kênh; Ads 2-3 kênh + retargeting; dashboard" },
+        { "name": "Marketing Scale", "price": "69,9M/th", "desc": "4-5 kênh; 15-20 nội dung/kênh; Ads 3-5 kênh + automation; SLA 24-48h" },
+        { "name": "Department as a Service", "price": "99,9M/th", "desc": "Dedicated team 2-4 người; full-stack; SLA 24h; QBR" }
       ],
       "crossSell": ["svc-02", "svc-03", "svc-04", "svc-05", "svc-08", "svc-09", "svc-10"]
     },

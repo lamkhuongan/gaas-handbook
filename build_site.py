@@ -44,7 +44,7 @@ MANIFEST = HUB / 'build-manifest.json'
 
 # Content-integrity invariants derived from the current sources.
 BASELINE = {
-    'tables': 79,
+    'tables': 78,
     'code_fences': 6,
     'checkboxes': 105,
 }
